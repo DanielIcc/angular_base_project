@@ -64,6 +64,20 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "dev": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.dev.ts"
+                }
+              ],
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
             }
           },
           "defaultConfiguration": "production"
@@ -76,6 +90,9 @@
             },
             "development": {
               "browserTarget": "base-app:build:development"
+            },
+            "dev": {
+              "browserTarget": "base-app:build:dev"
             }
           },
           "defaultConfiguration": "development"

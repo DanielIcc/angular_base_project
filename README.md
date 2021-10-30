@@ -4,10 +4,10 @@ Base project with folder structure and other useful tools
 ## Development server
 
 In order to use dev environment use:
-`ng serve --configurations=dev`
+`npm run dev --configurations=dev`
 
 To allow connections in local network use:
-`ng serve --host 0.0.0.0`
+`ng run local`
 
 ## Proyect scaffolding
 
